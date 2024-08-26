@@ -1,0 +1,83 @@
+CSS (Cascading Style Sheets) is a language designed to simplify the process of making web pages presentable. It allows you to apply styles to HTML documents, describing how a webpage should look by prescribing colors, fonts, spacing, and positioning. CSS provides developers and designers with powerful control over the presentation of HTML elements.
+HTML uses tags and CSS uses rulesets. CSS styles are applied to the HTML element using selectors. CSS is easy to learn and understand, but it provides powerful control over the presentation of an HTML document.
+
+Why CSS?
+Saves Time: Write CSS once and reuse it across multiple HTML pages.
+Easy Maintenance: Change the style globally with a single modification.
+Search Engine Friendly: Clean coding technique that improves readability for search engines.
+Superior Styles: Offers a wider array of attributes compared to HTML.
+Offline Browsing: CSS can store web applications locally using offline cache, allowing offline viewing.
+
+CSS Syntax
+CSS consists of style rules that are interpreted by the browser and applied to the corresponding elements. A style rule set includes a selector and a declaration block.
+
+Selector: Targets specific HTML elements to apply styles.
+Declaration: Combination of a property and its corresponding value.
+// HTML Element
+<h1>GeeksforGeeks</h2>
+
+// CSS Style
+h1 { color: blue; font-size: 12px; }
+
+Where - 
+Selector - h1
+Declaration - { color: blue; font-size: 12px; } 
+
+The selector points to the HTML element that you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+CSS Selectors
+Last Updated : 23 Jul, 2024
+CSS selectors target the HTML elements on your pages, allowing you to add styles based on their ID, class, type, attribute, and more. This guide will help you to understand the intricacies of CSS selectors and their important role in enhancing the user experience of your web pages. Understanding these selectors—such as the universal selector, attribute selector, pseudo-class selector, and combinator selectors—enables more efficient and dynamic web design.
+
+Types of CSS Selectors
+CSS selectors come in various types, each with its unique way of selecting HTML elements. Let’s explore them:
+
+CSS Selectors	Description
+Simple Selectors
+
+It is used to select the HTML elements based on their element name, id, attributes, etc
+
+Universal Selector	Selects all elements on the page.
+Attribute Selector	Targets elements based on their attribute values.
+Pseudo-Class Selector	Selects elements based on their state or position, such as :hover for hover effects.
+Combinator Selectors	Combine selectors to specify relationships
+
+CSS Comments
+Last Updated : 23 Jul, 2024
+CSS Comments. Comments are essential for documenting code, providing clarity during development and maintenance. They begin with `/*` and end with `*/`, allowing for multiline or inline annotations. Browsers ignore comments, ensuring they don’t affect the rendering of web pages.
+
+Syntax:
+/* content */
+Comments can be single-line or multi-line. The /* */ comment syntax can be used for both single and multiline comments. We may use <!– –> syntax for hiding in CSS for older browsers, but this is no longer recommended for use.
+
+Adding comments to the code is a good practice that can help to understand the code if someone reads the code or if it is reviewed later.
+
+Note: The outputs are the same because comments are ignored by the browser and are not interpreted.
+
+Examples of CSS Comments
+Example 1: This example describes the single-line comment.
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            color: green;
+        }
+
+        /* Single line comment */
+    </style>
+</head>
+
+<body>
+    <h1>GeeksforGeeks</h1>
+    <p> A Computer Science portal for geeks </p>
+
+</body>
+
+</html>
+

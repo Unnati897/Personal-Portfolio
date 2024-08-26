@@ -1,0 +1,117 @@
+Node.js (Node js) is an open-source and cross-platform JavaScript runtime environment. It runs on Chrome’s V8 JavaScript engine. It allows developers to run JavaScript code on the server. Node.js enables developers to get into the server-side world.
+In this Node.js Tutorial, we’ll learn all the basic to advanced concepts of Node.js such as Event loop, modules, node package manager, installation of node.js, Error handling, architecture, Async/Await etc.
+
+What is Node.js?
+Node.js is an open source server environment that uses JavaScript on server. A Node.js application runs within a single process, without generating a new thread for each request. Node.js includes asynchronous I/O primitives as a part of its standard library, which prevents JavaScript code from blocking and, in general, libraries in Node.js are developed using non-blocking paradigms. This makes blocking behaviour the exception instead of the rule.
+It is developed by Ryan Dahl in the year 2009 and v22.4.1 is the latest version of Node.js. Because it is cross-platform one can easily run on Windows, Linux, Unix, macOS and more.
+Node.js has a unique advantage because millions of frontend developers who write JavaScript for the browser can now write server-side code without needing to learn a completely new language. Node.js is one of the popular choices for developing RESTful APIs, microservices and web application.
+
+Basic Example of Node.js Application
+
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Welcome to GeeksforGeeks Node.js Tutorial');
+}).listen(8080);
+
+Output on http://localhost:8080
+Welcome to GeeksforGeeks Node.js Tutorial 
+
+Explanation:
+To run this Node.js code, save it as a server.js file and run “node server.js" in your terminal.
+The server is set to listen on the specified port(8080) and host name(http://localhost:8080). When the server is ready, the callback function is called, in this case informing us that the server is running.
+
+Prerequisites to Learn Node.js
+Basic understanding of JavaScript programming language.
+Understanding of server-side concepts such as handling requests and responses.
+
+Why to learn Node.js?
+Node.js is famous due to the use of JavaScript across the entire stack, asynchronous programming model for handling multiple requests simultaneously, fast execution due to the V8 engine, large and active community support, scalability for real-time applications, cross-platform compatibility, and its role in enabling full-stack development. All these features make Node.js very fast and popular.
+Well before getting deep down in the Node.js tutorial there is a certain requirement.
+
+Key Features of Node.js:
+JavaScript Everywhere: Node.js enables developers to use JavaScript across the entire stack, from front-end to back-end. This consistency simplifies development and reduces context switching.
+Asynchronous Programming Model: Node.js uses an event-driven, non-blocking (asynchronous) I/O model. This allows handling multiple requests simultaneously without blocking the execution of other tasks. As a result, Node.js applications are highly responsive and efficient.
+Fast Execution: Node.js leverages the V8 engine, developed by Google, which compiles and executes JavaScript at lightning speeds. This performance advantage makes it suitable for real-time applications and microservices.
+Large and Active Community: Node.js has a vibrant community of developers, libraries, and tools. You’ll find extensive resources, tutorials, and support to enhance your learning experience.
+Scalability: Node.js is lightweight and scalable, making it an excellent choice for building real-time applications, RESTful APIs, and microservices.
+Cross-Platform Compatibility: Node.js runs on Windows, Linux, Unix, macOS, and more. This flexibility allows developers to write code once and deploy it anywhere.
+
+Node.js Advantages
+Easy Scalability: Node.js compiles and executes JavaScript at lightning speeds, making it highly scalable.
+Real-time Web Apps: Node.js enables real-time communication for chat, gaming, social media updates, and more.
+Microservices: Node.js is lightweight and ideal for microservice architectures.
+JavaScript Everywhere: Learn JavaScript once, and you can use it both for front-end and back-end development.
+Efficient Data Streaming: Node.js efficiently handles I/O processes like media transcoding during uploads.
+Event-Driven Architecture: Unlike traditional servers, Node.js handles concurrent requests effectively.
+Strong Community Support: Node.js has an independent community backing its development.
+
+Node.js Jobs
+If you are curies about what job profiles you will get after learning Node, then here in this section we have listed down some of the job profiles that any Node.jsdeveloper can easily get.
+
+Backend Developer
+Full-Stack Developer
+API Developer
+Microservice Developer
+DevOps Engineer
+
+Node.js Assert Module
+Assert module in Node.js provides a bunch of facilities that are useful for the assertion of the function. The assert module provides a set of assertion functions for verifying invariants. If the condition is true it will output nothing else an assertion error is given by the console.
+
+Assert Module in Node.js
+The assert module in Node.js is a core module designed for making assertions in your code, primarily used for testing and debugging purposes. It provides a way to test whether certain conditions hold true during runtime and is commonly employed in unit testing frameworks to validate expected outcomes.
+
+Installation Step (Optional):
+
+Installation is an optional step as it is inbuilt Node.js module. Install the assert module using the following command:
+
+npm install assert
+Importing module:
+
+const assert = require("assert");
+
+eatures
+Simple Assertions:
+The assert module provides basic assertion methods like assert.ok(), assert.strictEqual(), and assert.deepStrictEqual() to validate conditions with minimal code.
+
+Error Handling:
+Automatically throws errors when assertions fail, aiding in early detection of bugs and logical errors during development and testing.
+
+Custom Error Messages:
+Allows custom error messages to be specified, making it easier to identify and diagnose issues.
+
+Type and Deep Comparisons:
+Supports strict and deep comparisons, allowing for precise validation of both primitive values and complex data structures.
+
+Error Expectation:
+Includes methods like assert.throws() and assert.doesNotThrow() to verify that functions behave as expected in terms of error generation.
+
+Example 1: This example demonstrates how to use the assert module to check if two values are equal and display result on console.
+
+
+console.clear()
+
+console.clear()
+const assert = require('assert');
+
+let x = 4;
+let y = 5;
+
+try {
+
+    // Checking condition
+    assert(x == y);
+}
+catch {
+
+    // Error output
+    console.log(
+        `${x} is not equal to ${y}`);
+}
+
+Output
+4 is not equal to 5
+
+
+

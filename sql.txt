@@ -1,0 +1,113 @@
+n this SQL tutorial, you’ll learn all the basic to advanced SQL concepts like SQL queries, SQL join, SQL injection, SQL insert, and creating tables in SQL. SQL is easy to learn, there are no prerequisites to learning SQL.
+So, SQL is a standard database language used to access and manipulate data in databases. SQL stands for Structured Query Language. It was developed by IBM Computer Scientists in the 1970s. By executing queries SQL can create, update, delete, and retrieve data in databases like MySQL, Oracle, PostgreSQL, etc. Overall, SQL is a query language that communicates with databases.
+
+What is a Database?
+Before deep diving into this free SQL tutorial, let’s understand what a database is.
+So, data is the new fuel of this world, but data is unorganized information, so to organize that data, we make a database. A database is an organized collection of structured data, usually controlled by a database management system (DBMS). Databases help us easily store, access, and manipulate data held on a computer.
+
+Why to Learn SQL?
+SQL helps you to easily get information from data with high efficiency. To manipulate the data in databases like Create, Read, Edit, and Delete, we use SQL queries. Users can interact with data stored in relational database management systems. Anyone who knows the English language can easily write SQL queries. Some of the key features of SQL are given below:
+
+Without a lot of coding knowledge, we can manage a database with SQL.
+SQL works with database systems from Oracle, IBM, Microsoft, etc.
+Simple and easy to learn.
+SQL is an ANSI and ISO standard language for database manipulation.
+SQL retrieves large amounts of data very fast.
+
+Pre-Requisites to Learn SQL
+If you want to learn SQL then, this free SQL tutorial is quite easy to understand because, during the development of this course, we tried our best to provide the best resource to clear your SQL concept.
+But we assume that you are already aware of the basic conceptions of computer science, like databases and its types.
+So, if you have basic knowledge of RDBMS, then this SQL tutorial provides you with enough knowledge to master SQL.
+
+SQL Basics
+SQL or Structure Query Language is a fundamental skill for anyone who wants to interact with databases. This standard Query Language all users to create, manage, and retrieve data from relational databases. In this SQL tutorial PDF, we have listed all the basics of SQL. Explore this section to sharpen your SQL basics.
+
+What is a Database
+Types of Databases
+What is DBMS
+Relational and Non Relational Databases
+What is SQL?
+SQL Data Types
+SQL Operators
+SQL Commands
+
+Create Database in SQL
+The first step to storing the information electronically using SQL includes creating database. And in this section we will learn how to Create, Select, Drop, and Rename databases with examples.
+
+SQL CREATE Database
+SQL DROP Database
+SQL RENAME Database
+SQL SELECT Database
+
+Tables in SQL
+The cornerstone of any SQL database is the table. Basically, these structure functions is very similar to spreadsheets, which store data in very organized grid format. In this section, you will learn how to Create, Drop, Delete, and more related to Table.
+
+SQL CREATE TABLE
+SQL DROP TABLE
+SQL DELETE TABLE
+SQL RENAME TABLE
+SQL TRUNCATE TABLE
+SQL COPY TABLE
+SQL TEMP TABLE
+SQL ALTER TABLE
+
+SQL Queries
+In this section, you will learn about the SQL Queries like SELECT statement, SELECT LAST, and more. Explore this section and learn how to use these queries.
+
+SQL SELECT Statement
+SQL SELECT TOP
+SQL SELECT FIRST
+SQL SELECT LAST
+SQL SELECT RANDOM
+SQL SELECT IN
+SQL SELECT Multiple
+SQL SELECT DATE
+SQL INSERT Multiple Rows
+SQL INSERT INTO
+SQL UPDATE Statement
+SQL DELETE Statement
+SQL DELETE Duplicate Row
+
+SQL Clauses
+Unlock the power of SQL Clauses with this SQL tutorial. Here in this section, you will learn how to use SELECT, WHERE, JOIN, GROUP BY, and more to query databases effectively.
+
+SQL WHERE Clause
+SQL WITH Clause
+SQL HAVING Clause
+SQL ORDER By Clause
+SQL Group By Clause
+SQL LIMIT Clause
+
+QL Operators
+SQL Operators” refers to the fundamental symbols and keywords within the SQL that enable users to perform various operations and SQL AND, OR, LIKE, NOT, and more operators on databases. Here, we have discussed all the SQL operators in a detailed manner with examples.
+
+SQL AND Operator
+SQL OR Operator
+SQL LIKE Operator
+SQL IN Operator
+SQL NOT Operator
+SQL NOT EQUAL Operator
+SQL IS NULL Operator
+SQL UNION Operator
+SQL UNION ALL Operator
+SQL EXCEPT Operator
+SQL BETWEEN Operator
+SQL ALL Operator
+SQL ANY Operator
+SQL INTERSECT Operator
+SQL EXISTS Operator
+SQL CASE Operator
+
+SQL Data Constraints
+Constraints act as rules or conditions imposed on the data, dictating what values are permissible and what actions can be taken. They play a crucial role in maintaining the quality and coherence of the database by preventing errors. So, explore this section to get a hand on SQL Data Constraints.
+
+SQL NOT NULL Constraints
+SQL UNIQUE Constraints
+SQL Primary Key Constraints
+SQL Foreign Key Constraints
+SQL Composite Key
+SQL Unique Constraints
+SQL Alternate Key
+SQL CHECK Constraints
+SQL DEFAULT Constraints
+
